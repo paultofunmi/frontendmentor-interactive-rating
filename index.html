@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <main>
+      <section class="rating">
+          <div class="rating__body">
+            <div class="icon">
+              <img class="icon-image" src="images/icon-star.svg" alt="icon-star">
+            </div>
+            <h2 class="rating__heading">
+              How did we do?
+            </h2>
+            <p class="rating__prompt">
+              Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+            </p>
+            <div class="rating__inputs">
+              <p class="rating__input">1</p>
+              <p class="rating__input">2</p>
+              <p class="rating__input">3</p>
+              <p class="rating__input">4</p>
+              <p class="rating__input">5</p>
+            </div>
+            <div class="rating__submit">
+              <button class="btn rating__button">Submit</button>
+            </div>
+          </div>              
+
+          <div class="rating__response rating__response--hidden">
+            <p class="icon-response-image"><img src="images/illustration-thank-you.svg" alt="" srcset=""></p>
+            <p class="rating-result"> You selected <span id="rating-selection"></span> out of 5</p>
+
+            <div class="rating-response__body">
+              <h2 class="rating__heading">
+                Thank you!
+              </h2>
+              <p class="rating__prompt">
+                We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
+              </p>
+            </div>
+          </div>
+      </section>
+   </main>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
