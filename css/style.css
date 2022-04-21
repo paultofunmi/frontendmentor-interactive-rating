@@ -31,7 +31,6 @@ body {
 }
 
 .rating__heading {
-    font-size: 0.9rem;
     font-weight: lighter;
 }
 
@@ -39,7 +38,6 @@ body {
     margin: 20px auto;
     color: #4A525D;
     line-height: 1.3rem;
-    /* letter-spacing: 2px; */
     font-size: 0.9rem;
 }
 
