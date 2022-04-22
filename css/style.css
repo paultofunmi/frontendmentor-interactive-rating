@@ -10,8 +10,8 @@ body {
 
 .rating {
     background: #212731;
-    width: 80%;
-    max-width: 300px;
+    width: 90%;
+    max-width: 350px;
     margin: 12% auto 1rem auto;
     padding: 25px;
     border-radius: 30px;
@@ -31,14 +31,13 @@ body {
 }
 
 .rating__heading {
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 .rating__prompt {
     margin: 20px auto;
     color: #4A525D;
-    line-height: 1.3rem;
-    font-size: 0.9rem;
+    line-height: 2.1rem;
 }
 
 .rating__inputs {
@@ -51,8 +50,8 @@ body {
     cursor: pointer;
     justify-content: center; 
     margin-right: 10px;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 30px;
     background: #262E38;
     transition: 0.2s ease-in-out;
@@ -80,6 +79,7 @@ body {
 .rating__button {
     background-color: #FA7712;
     color: #fff;
+    height: 40px;
 }
 
 .rating__button:hover {
